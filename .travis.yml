@@ -1,9 +1,12 @@
 language: php
-
 php:
-  - '7.0'
-
+- '7.0'
 sudo: false
-
 script:
-  - 'file.php'
+- file.php
+cache:
+  directories:
+  - "$HOME/.composer/cache"
+notifications:
+  slack:
+    secure: f1W10HFZWxHtzyVz66jctcz1fLlC87NpYj+va6vKdu2MsytF2NwFgjV35R5d3pMbKiv8fpYBYILvv+UHmmiT8FG7cbmYXl4STrtC52IMcZlz7oV4HgLXn7Q9nB+stVebXHnl2KS1d9dZYwEJNxruMIf/6Nc1C/FA9OxRpKKDYNTZ1MAO08ioxaT5oZCaQmw9OgXLHsjeJ+JYdrNNUBNa6r9fwDJ0THga2wu42PMYp6TJ8NIqPfK9n+J1hva2IDQBF9FLmDGq05Lkt0ADcaXSpru7WvoMZ29UPIaxZXA+BsujFOzagc0K9qHFqOD0+3IqD2nJZd8Hnvr60Q/2O0Tkl7Huvl4jZ10u3mdBk33FBVYfE6Wzh1D5vOzPpY0FaI39Ig2nvQb7Snqqmovs2Lw1YHaC99RJiVRUh64w8osveOCEjlx5tp4SeKQ2R5nnnB7hrW32W7jQM8aB6d8e8tqVpfnRHOpV8IGPdiBYU1iMkBglzL56ssSwgTRL34da2iYFmmtRWVQehZc+wXrd11s+fBqehEoPAWsBeI47aQkM58GR1Glgeamv4uXt1oW6yZ7Cr/jBxnfSkOWaM9b8Va8CTScjkELqIm1JoYpinUNTiWovA98sM/hY2/V6x3p/eW9ez6d5QdRsUfJ6+Boy2H+fIUf+sjAKEEIF0rkQYL4hXrw=
