@@ -1,0 +1,11 @@
+#++++++++++++++++++++++++++++++++++++++
+# PHP application Docker container
+#++++++++++++++++++++++++++++++++++++++
+
+FROM webdevops/php-nginx-dev:7.2
+
+ENV PROVISION_CONTEXT "development"
+ENV WEB_DOCUMENT_ROOT "/app/public"
+ENV WEB_NO_CACHE_PATTERN="\.(css|js|gif|png|jpg|svg|json|xml)$"
+
+WORKDIR /app/
