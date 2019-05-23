@@ -1,0 +1,8 @@
+{
+    "name": "vxvr/badpackage",
+    "description": "",
+    "type": "library",
+    "require": {
+        "vertexvaar/tst": "^2.0"
+    }
+}

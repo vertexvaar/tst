@@ -1,0 +1,15 @@
+{
+    "name": "vxvr/tst-test",
+    "description": "",
+    "type": "project",
+    "require": {
+        "vxvr/badpackage": "@dev",
+        "vertexvaar/tst": "^v2.0@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./repo/*"
+        }
+    ]
+}
