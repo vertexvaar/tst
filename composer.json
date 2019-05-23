@@ -8,7 +8,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "v1.0.x-dev"
+            "dev-master": "v1.0.x-dev",
+            "dev-b-wh00p": "v1.2.x-dev"
         }
     }
 }
