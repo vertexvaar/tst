@@ -1,5 +1,14 @@
 {
+    "name": "vertexvaar/tst",
+    "description": "TEST PACKAGE",
+    "type": "library",
+    "license": "MIT",
     "require": {
-        "nesbot/carbon": "^2.10"
+        "nesbot/carbon": "^2.18"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.x-dev"
+        }
     }
 }
